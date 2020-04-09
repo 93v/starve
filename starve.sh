@@ -290,6 +290,7 @@ find . -type d -name node_modules -prune -exec find {} -type d \( \
 
 # Empty folders
 find node_modules -type d -empty -delete
+find node_modules -exec rmdir {} 2> /dev/null \;
 
 echo ""
 echo "After starvation: "$(du -hs .)
