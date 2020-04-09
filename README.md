@@ -13,7 +13,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/93v/starve.svg)
 ![npm collaborators](https://img.shields.io/npm/collaborators/starve.svg)
 
-Clean and remove unnecessary files and folders from `node_modules`
+VERY AGGRESSIVELY Clean and remove unnecessary files and folders from `node_modules`
 
 ## Why
 
